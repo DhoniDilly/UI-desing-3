@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.panner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+.panner-card {
+    width: 30rem !important;
+    padding: 3.5rem !important;
+    border-radius: 20px !important;
+    position: relative;
+    border: none !important;
+    box-shadow: #3FDEB4 0px 25px 50px -12px;
+}
+.panner-card::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#3FDEB4, #3EDED2);
+    left: -10%;
+    top: -10%;
+    border-radius: 20px;
+    z-index: -1;
+}
+.panner-card h2 {
+    font-size: 22px;
+    padding-bottom: 1rem;
+}
+.panner-card button {
+    padding: 1.2rem;
+    background-color: #1F2554;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 2rem;
+}
+.panner-card button i {
+    margin-left: 10px;
+}
+.list-person {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+}
+.first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.first-one {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: relative;
+}
+.small-box {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    background-color: #3FDEA5;
+    right: 3px;
+    top: 0px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.first-one img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.second-two h1 {
+    font-size: 18px;
+    padding-bottom: 7px;
+}
+.second-two p {
+    font-size: 14px;
+    line-height: 0;
+}
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+.offline {
+    background-color: #DE783F;
+}
+.second span {
+    font-size: 13px;
+    opacity: .7;
+}
+.waiting {
+    background-color: #D1D1D1;
+}
